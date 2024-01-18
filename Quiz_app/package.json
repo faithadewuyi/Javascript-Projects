@@ -1,0 +1,22 @@
+{
+  "name": "quiz_app",
+  "version": "1.0.0",
+  "description": "A basic quiz application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+github.com/faithadewuyi/javascript-projects"
+  },
+  "keywords": [
+    "quiz application",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "Faith Adewuyi",
+  "license": "ISC"
+}
