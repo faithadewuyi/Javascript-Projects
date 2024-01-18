@@ -18,7 +18,7 @@ In these projects, developers use HTML and CSS to control the content and stylin
 ### 1. Role Playing Game
 
 
-### 2. Calorie Counter
+### 2. QUiz App
 
 
 ### 3. Music Player
