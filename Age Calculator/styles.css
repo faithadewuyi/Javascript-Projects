@@ -61,8 +61,11 @@ button:hover{
 }
 #result{
     margin-top: 20px;
-    font-size: 24px;
+    font-size: 34px;
     font-weight: bold;
+    font-family: 'Italianno', cursive;
+    color: rgb(30, 48, 42);
+
 }
 footer{
     margin-left: 200px;
