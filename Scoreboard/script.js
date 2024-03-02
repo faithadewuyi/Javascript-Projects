@@ -1,3 +1,4 @@
+// Script for Home Score Buttons
 let homeScoreEl = document.getElementById("home-score")
 let homeScore = 0;
 function plus_one(){
@@ -18,22 +19,22 @@ function plus_two(){
     homeScoreEl.textContent = homeScore
  
  }
-
+// Script for Guest Score Buttons
  let guestScoreEl = document.getElementById("guest-score")
 let guestScore = 0;
-function plus_one(){
+function gplus_one(){
  guestScore++
  
    guestScoreEl.textContent = guestScore
 
 }
-function plus_two(){
+function gplus_two(){
   guestScore += 2
   
     guestScoreEl.textContent = guestScore
  
  }
- function plus_three(){
+ function gplus_three(){
   guestScore += 3
   
     guestScoreEl.textContent = guestScore

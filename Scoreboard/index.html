@@ -5,13 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scoreboard</title>
   <link href ="styles.css" rel="stylesheet">
+  <!-- Google font Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="container">
     <div class="wrapper">
     <div class="home">
       <h1>HOME</h1>
-      <span id="home-score">0</span>
+      <span class="score-container"><p id="home-score">0</p></span> 
       <div class="buttons">
         <button onclick="plus_one()">
           +1
@@ -26,15 +30,15 @@
     </div>
     <div class="guest">
       <h1>GUEST</h1>
-      <span id="guest-score"></span>
+      <span class="score-container"><p id="guest-score">0</p></span> 
       <div class="buttons">
-        <button onclick="plus_one()">
+        <button onclick="gplus_one()">
           +1
         </button>
-        <button onclick="plus_two()">
+        <button onclick="gplus_two()">
           +2
         </button>
-        <button onclick="plus_three()">
+        <button onclick="gplus_three()">
           +3
         </button>
       </div>
