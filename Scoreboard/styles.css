@@ -55,8 +55,6 @@ p{
     color: #F94F6D;
     width: 117px;
     height: 120px;
-    /* top: 125px;
-    left: 100px; */
     font-weight: 400;
     font-size: 90px;
     line-height: 126.67px;
@@ -84,5 +82,12 @@ p{
     border: 1px solid;
     border-radius: 2px;
   }
-    
-
+    /* Styling to show the leader */
+  .leader {
+    background-color: gold; 
+    color: black; 
+    border-radius: 5px; 
+    width: 117px;
+    height: 120px;
+  }
+  
