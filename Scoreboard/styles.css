@@ -3,13 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-@font-face {
-  font-family: 'Cursed Timer ULiL';
-  src: url('/fonts/CursedTimerULiL.woff2') format('woff2'),
-  url('/fonts/CursedTimerULiL.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
+
 
 .container{
   background-color: blue;
