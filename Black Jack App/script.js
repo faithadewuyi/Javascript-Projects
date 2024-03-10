@@ -1,3 +1,7 @@
+let player= {
+  name: "Faith",
+  chips: 500
+}
 let cards = []
 let sum = 0
 let hasBlackJack = false;
@@ -6,6 +10,10 @@ let message = "";
 let messageEl = document.getElementById("message-el");
 let sumEl = document.getElementById("sum-el");
 let cardEl = document.getElementById("cards-el");
+
+let playerEl =document.getElementById("player-el")
+
+playerEl.textContent = player.name + ": $" + player.chips
 
 function getRandomCard(){
   let randomNumber = Math.floor(Math.random () * 13) + 1 
@@ -61,24 +69,15 @@ function runGame(){
 
 
 function newCard(){
+  if (outOfGame === true && hasBlackJack === false){
   let card =  getRandomCard()
   sum+= card
 
   cards.push(card)
   console.log(cards)
   runGame()
+  }
 }
 
-// let faith =[3, 5, 8]
-//  for (let i= 0; i<cards.length; i++){
-//   console.log(faith[i])
-//  }
 
-//  let sentence = ["Hello", "my", "name", "is", "faith"]
-
-//  let greetingEl = document.getElementById("greeting-el")
-
-//  for(let i =0; i < sentence.length; i++){
-//   greetingEl.textcontent += sentence[i]
-//  }
  
