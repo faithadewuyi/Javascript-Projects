@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+  margin: 0; 
+  padding: 0;
+}
+
+.container{
+  
+  background-color: #1F2937;
+  color: white;
+  width: 550px;
+  height: 550px;
+  align-items: center;
+  margin: auto;
+  border-radius: 5px;
+
+  
+}
+ h1{
+  width: 354px;
+  font-family: Karla;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: -0.025em;
+  text-align: left;
+  padding-top:  100px;
+  padding-left: 30px;
+}
+span{
+  color:rgb(79, 157, 79);
+}
+p{
+  padding-left: 30px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+button{
+  margin-left: 30px;
+  margin-top: 50px;
+  width: 170px;
+  height: 28px;
+  background-color: rgb(79, 157, 79);
+  border: none;
+  color: #ffff;
+  font-size: 15px;
+  border-radius: 2px;
+}
+
+#displayPassword {
+  margin-top: 20px;
+  padding: 10px;
+  margin-left: 30px;
+  word-break: break-all; 
+}
