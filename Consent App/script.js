@@ -4,5 +4,9 @@ const modalEl = document.getElementById("modal")
 
 setTimeout(function(){
   modalEl.style.display ="inline"
-  closeBtnEl.style.display="none"
+ 
 }, 1500)
+
+closeBtnEl.addEventListener("click", function(){
+  modalEl.style.display="none"
+})
