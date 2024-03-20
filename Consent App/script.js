@@ -10,3 +10,8 @@ setTimeout(function(){
 closeBtnEl.addEventListener("click", function(){
   modalEl.style.display="none"
 })
+ const consentFormEl = document.getElementById("consent-form")
+
+ consentFormEl.addEventListener('submit', function(e){
+  e.preventDefault()
+ })
