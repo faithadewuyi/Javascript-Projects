@@ -128,6 +128,10 @@ color: whitesmoke;
   cursor: pointer;
 }
 
+.modal-btns-reverse{
+  flex-direction: row-reverse;
+}
+
 /* modal input */
 
 input{
